@@ -1,0 +1,15 @@
+create table if not exists board_work_items_components(
+work_item_number varchar(255) not null,
+system_info varchar(255) null,
+planning char null,
+impact Integer null,
+application_id varchar(255) null,
+affect_version varchar(255) null,
+impacted_environment Integer null,
+test_phase Integer null,
+test_activity varchar(255) null,
+issue_description Integer null,
+planned_start_date varchar(255) null,
+planned_end_date varchar(255) null,
+due_date varchar(255) null,
+constraint board_work_items_components_pk primary key(work_item_number));
